@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contain">
+        <h2>IQ Game</h2>
+        <p>Try and Guess a number between 1 to 100</p>
+        <p>You have Only 10 Attempts to Guess !!</p>
+        <h3>Guess the Number</h3>
+        <div class="contents">
+            <form action="">
+            <input type="text" size="50px" class="guessField" id="guessField"><br>
+            <input type="submit" value="Submit Guess" id="subt" class="guessSubmit">
+           
+            </form>    
+        </div>
+        <div class="resultParams">
+            <p>Previous Guess : <span class="guesses"></span></p>
+            <p>Remaining Guess : <span class="lastResult">10</span></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,25 @@
+body {
+    height: 90vh;
+    background:linear-gradient(90deg,rgb(0, 0, 0), rgb(42, 2, 53));
+}
+.contain{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contents{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center ;
+     
+}
+button{
+    margin: 4px
+}
+h3{
+    font-size: 50px ;
+}
